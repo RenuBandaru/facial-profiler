@@ -20,7 +20,7 @@ for root, dirs, files in os.walk(utk_path):
                 full_path = os.path.join(root, file)  # Get the full path of the image
 
                 utk_rows.append({
-                    "image_path": file, # Store only the filename, not the full path
+                    "image_path": full_path, # storing the full path of the image for later use
                     "age": age,
                     "gender": gender,
                     "Race": race
@@ -56,7 +56,7 @@ for emotion_folder in os.listdir(raf_path):
                     full_path = os.path.join(emotion_path, file) # Get the full path of the image
 
                     raf_rows.append({
-                        "image_path": file,     # Store only the filename, not the full path
+                        "image_path": full_path,     # Store the full path of the image
                         "emotion": emotion_label
                     })
 
