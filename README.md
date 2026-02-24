@@ -41,14 +41,6 @@ Live inference: MTCNN → Crop → Predict → Visualize
 - Emotions (7 classes): Happy (4.8K), Neutral (2.5K), Fear (2K), others
 
 
-### Training Results (Validation)
-
- * Age Accuracy: 65-75% (best: 20-29 bin @ 85%)
- * Gender Accuracy: 89-92%
- * Emotion Accuracy: 68-72% (Happy/Neutral dominant)
- * Overall: Multi-task handles label sparsity well
-
-
 ## 🚀 Quick Start
 
 #### 1. Clone & Environment
