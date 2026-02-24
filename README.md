@@ -43,10 +43,10 @@ Live inference: MTCNN → Crop → Predict → Visualize
 
 ### Training Results (Validation)
 
-Age Accuracy: 65-75% (best: 20-29 bin @ 85%)
-Gender Accuracy: 89-92%
-Emotion Accuracy: 68-72% (Happy/Neutral dominant)
-Overall: Multi-task handles label sparsity well
+ * Age Accuracy: 65-75% (best: 20-29 bin @ 85%)
+ * Gender Accuracy: 89-92%
+ * Emotion Accuracy: 68-72% (Happy/Neutral dominant)
+ * Overall: Multi-task handles label sparsity well
 
 
 ## 🚀 Quick Start
